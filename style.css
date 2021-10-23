@@ -1,0 +1,79 @@
+.hero-section {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(images/bg-intro-desktop.png);
+  height: 100vh;
+  padding: 6.4em;
+}
+.grid {
+  display: grid;
+  gap: 8.4rem;
+}
+.primary-heading {
+  font-size: 4.6rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+form {
+  padding: 3.6rem 3.6rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 5px;
+}
+.input-field {
+  width: 100%;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  color: hsl(248, 32%, 49%);
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+.btn {
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 5px;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+.tempt {
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 1.6rem;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.warning,
+.tempt p {
+  font-weight: 400;
+  color: hsl(246, 25%, 77%);
+}
+.warning {
+  font-size: 1.1rem;
+}
+strong {
+  color: #fff;
+  font-weight: 700;
+}
